@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CCViewController.h
 //  01-EarthAndMoon
 //
 //  Created by CC老师 on 2018/1/17.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CCViewController : GLKViewController
 
 @end
-

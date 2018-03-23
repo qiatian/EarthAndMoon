@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		D6B09F60200F45A000BB0293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B09F5F200F45A000BB0293 /* main.m */; };
 		D6B09F63200F45A000BB0293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B09F62200F45A000BB0293 /* AppDelegate.m */; };
-		D6B09F66200F45A000BB0293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B09F65200F45A000BB0293 /* ViewController.m */; };
 		D6B09F69200F45A000BB0293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B09F67200F45A000BB0293 /* Main.storyboard */; };
 		D6B09F6B200F45A000BB0293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B09F6A200F45A000BB0293 /* Assets.xcassets */; };
 		D6B09F6E200F45A000BB0293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B09F6C200F45A000BB0293 /* LaunchScreen.storyboard */; };
 		D6B09F79200F45A000BB0293 /* _1_EarthAndMoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B09F78200F45A000BB0293 /* _1_EarthAndMoonTests.m */; };
 		D6B09F84200F45A000BB0293 /* _1_EarthAndMoonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B09F83200F45A000BB0293 /* _1_EarthAndMoonUITests.m */; };
+		D6B09F93200F467C00BB0293 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B09F92200F467C00BB0293 /* CCViewController.m */; };
+		D6B09F98200F472900BB0293 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B09F97200F472900BB0293 /* AGLKVertexAttribArrayBuffer.m */; };
+		D6B09F9D200F473300BB0293 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6B09F99200F473300BB0293 /* Earth512x256.jpg */; };
+		D6B09F9E200F473300BB0293 /* Moon256x128.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B09F9A200F473300BB0293 /* Moon256x128.png */; };
+		D6B09F9F200F473300BB0293 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = D6B09F9C200F473300BB0293 /* sphere.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		D6B09F5F200F45A000BB0293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6B09F61200F45A000BB0293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6B09F62200F45A000BB0293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6B09F64200F45A000BB0293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6B09F65200F45A000BB0293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D6B09F68200F45A000BB0293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6B09F6A200F45A000BB0293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6B09F6D200F45A000BB0293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 		D6B09F7F200F45A000BB0293 /* 01-EarthAndMoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-EarthAndMoonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B09F83200F45A000BB0293 /* _1_EarthAndMoonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_EarthAndMoonUITests.m; sourceTree = "<group>"; };
 		D6B09F85200F45A000BB0293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B09F91200F467C00BB0293 /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		D6B09F92200F467C00BB0293 /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		D6B09F96200F472900BB0293 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		D6B09F97200F472900BB0293 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		D6B09F99200F473300BB0293 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
+		D6B09F9A200F473300BB0293 /* Moon256x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon256x128.png; sourceTree = "<group>"; };
+		D6B09F9B200F473300BB0293 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		D6B09F9C200F473300BB0293 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +113,14 @@
 			children = (
 				D6B09F61200F45A000BB0293 /* AppDelegate.h */,
 				D6B09F62200F45A000BB0293 /* AppDelegate.m */,
-				D6B09F64200F45A000BB0293 /* ViewController.h */,
-				D6B09F65200F45A000BB0293 /* ViewController.m */,
+				D6B09F91200F467C00BB0293 /* CCViewController.h */,
+				D6B09F92200F467C00BB0293 /* CCViewController.m */,
 				D6B09F67200F45A000BB0293 /* Main.storyboard */,
 				D6B09F6A200F45A000BB0293 /* Assets.xcassets */,
 				D6B09F6C200F45A000BB0293 /* LaunchScreen.storyboard */,
 				D6B09F6F200F45A000BB0293 /* Info.plist */,
+				D6B09F95200F46B800BB0293 /* 资源 */,
+				D6B09F94200F46AE00BB0293 /* Kit */,
 				D6B09F5E200F45A000BB0293 /* Supporting Files */,
 			);
 			path = "01-EarthAndMoon";
@@ -138,6 +150,26 @@
 				D6B09F85200F45A000BB0293 /* Info.plist */,
 			);
 			path = "01-EarthAndMoonUITests";
+			sourceTree = "<group>";
+		};
+		D6B09F94200F46AE00BB0293 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				D6B09F96200F472900BB0293 /* AGLKVertexAttribArrayBuffer.h */,
+				D6B09F97200F472900BB0293 /* AGLKVertexAttribArrayBuffer.m */,
+			);
+			name = Kit;
+			sourceTree = "<group>";
+		};
+		D6B09F95200F46B800BB0293 /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				D6B09F99200F473300BB0293 /* Earth512x256.jpg */,
+				D6B09F9A200F473300BB0293 /* Moon256x128.png */,
+				D6B09F9B200F473300BB0293 /* sphere.h */,
+				D6B09F9C200F473300BB0293 /* sphere.obj */,
+			);
+			name = "资源";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6B09F9D200F473300BB0293 /* Earth512x256.jpg in Resources */,
 				D6B09F6E200F45A000BB0293 /* LaunchScreen.storyboard in Resources */,
+				D6B09F9E200F473300BB0293 /* Moon256x128.png in Resources */,
 				D6B09F6B200F45A000BB0293 /* Assets.xcassets in Resources */,
+				D6B09F9F200F473300BB0293 /* sphere.obj in Resources */,
 				D6B09F69200F45A000BB0293 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B09F66200F45A000BB0293 /* ViewController.m in Sources */,
+				D6B09F98200F472900BB0293 /* AGLKVertexAttribArrayBuffer.m in Sources */,
 				D6B09F63200F45A000BB0293 /* AppDelegate.m in Sources */,
 				D6B09F60200F45A000BB0293 /* main.m in Sources */,
+				D6B09F93200F467C00BB0293 /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
